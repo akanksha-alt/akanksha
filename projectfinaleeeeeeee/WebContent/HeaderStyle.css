@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+
+nav{
+	
+	width= 100%;
+	height: 100px;
+	background-color: #0005;
+	opacity: 0.9;
+	line-height= 60px;
+	
+}
+nav ul{
+	float: right;
+	margin-right: 30px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.8s all;
+}
+nav ul li:hover{
+	background-color: #2292ec;
+	height: 100px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size:50px;
+	color: #fff;
+	padding: 50px;
+
+}

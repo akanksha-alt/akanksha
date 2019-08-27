@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.footer-main-div{
+	width:100%;
+	height: auto;
+	margin: auto;
+	background: black;
+	padding: 25px 0px;
+}
+
+.footer-menu-one{
+	width:100%;
+	height: auto;
+	margin: auto;
+	margin-top: 30px;
+}
+.footer-menu-one ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-menu-one ul li{
+	display: inline-block;
+	margin: 0px 15px;
+}
+.footer-menu-one ul li a{
+	font-family: arial;
+	font-size: 16px;
+	font-weight: 600;
+	color: white;	
+	Letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.footer-menu-one ul li a:hover{
+	 color:skyblue;
+}
+
